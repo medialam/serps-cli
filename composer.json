@@ -39,7 +39,8 @@
     "medialam/search-engine-google": "0.5.*",
     "medialam/http-client-phantomjs": "0.3.*",
     "medialam/http-client-curl": "0.3.*",
-    "laminas/laminas-diactoros": "2.4.1"
+    "laminas/laminas-diactoros": "2.4.1",
+    "ext-json": "*"
   },
 
   "require-dev":{

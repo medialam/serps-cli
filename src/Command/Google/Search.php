@@ -10,10 +10,8 @@ use function file_get_contents;
 use Serps\Core\Browser\Browser;
 use Serps\Core\Http\Proxy;
 use Serps\Core\Serp\ResultDataInterface;
-use Serps\Exception;
 use Serps\HttpClient\CurlClient;
 use Serps\HttpClient\PhantomJsClient;
-use Serps\HttpClient\SpidyJsClient;
 use Serps\SearchEngine\Google\GoogleClient;
 use Serps\SearchEngine\Google\GoogleUrl;
 use Serps\SearchEngine\Google\NaturalResultType;
@@ -218,9 +216,6 @@ class Search extends Command
             switch($client){
                 case "phantomjs":
                     $httpClient = new PhantomJsClient();
-                    break;
-                case "spidyjs":
-                    $httpClient = new SpidyJsClient();
                     break;
                 default:
                     $client = "curl";
