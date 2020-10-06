@@ -3,7 +3,7 @@
  * @license see LICENSE
  */
 
-namespace SerpsCli\Commande\Google;
+namespace SerpsCli\Command\Google;
 
 
 use function file_get_contents;
@@ -24,7 +24,6 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use function var_dump;
 
 class Search extends Command
 {

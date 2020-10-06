@@ -1,16 +1,20 @@
 {
 
-  "name": "serps/cli",
+  "name": "medialam/serp-cli",
   "description": "Command line utility to scrape from the terminal",
   "type": "project",
   "keywords": ["SERPS", "Google"],
-  "homepage": "https://github.com/serp-spider/serps-cli",
+  "homepage": "https://github.com/medialam/serp-cli",
   "license": "Fair",
 
   "authors": [
     {
       "name": "Soufiane GHZAL",
       "homepage": "https://github.com/gsouf"
+    },
+    {
+      "name": "Charles Astwood",
+      "homepage": "https://github.com/charlesastwood"
     }
   ],
 
@@ -29,19 +33,17 @@
   "prefer-stable": true,
 
   "require": {
-    "php": ">=5.5.9",
-    "symfony/console": "^3.3",
-
-    "serps/core": "~0.3.0",
-    "serps/search-engine-google": "~0.3.0|~0.4.0",
-
-    "serps/http-client-phantomjs": "~0.2.0",
-    "serps/http-client-curl": "~0.2.0",
-    "zendframework/zend-diactoros": "^1.4"
+    "php": ">=7.2",
+    "symfony/console": "4.4.*",
+    "medialam/serp-core": "0.4.*",
+    "medialam/search-engine-google": "~0.3.0|~0.4.0",
+    "medialam/http-client-phantomjs": "0.3.*",
+    "medialam/http-client-curl": "0.3.*",
+    "laminas/laminas-diactoros": "2.4.1"
   },
 
   "require-dev":{
-    "squizlabs/php_codesniffer": "~2.5"
+    "squizlabs/php_codesniffer": "3.*"
   },
 
   "scripts": {
