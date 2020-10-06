@@ -1,10 +1,10 @@
 {
 
-  "name": "medialam/serp-cli",
+  "name": "medialam/serps-cli",
   "description": "Command line utility to scrape from the terminal",
   "type": "project",
   "keywords": ["SERPS", "Google"],
-  "homepage": "https://github.com/medialam/serp-cli",
+  "homepage": "https://github.com/medialam/serps-cli",
   "license": "Fair",
 
   "authors": [
